@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\devopsnights\\UDP-Application\\UDP-Application.csproj",
+  "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\UDP-Application.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,38 +15603,38 @@
   "RootNamespace": "UDP_Application",
   "Documents": [
     {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\Index.cshtml",
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\_ViewImports.cshtml",
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\devopsnights\\UDP-Application\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\devopsnights\\wes\\UDP-Application\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
