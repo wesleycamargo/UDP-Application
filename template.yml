@@ -7,7 +7,7 @@ jobs:
       displayName: dotnet build
       inputs:
         command: 'build'
-        
+
     - task: DotNetCoreCLI@2
       displayName: dotnet publish
       inputs:
@@ -22,4 +22,5 @@ jobs:
         ArtifactName: 'drop'
         publishLocation: 'Container'
 
+    
     
