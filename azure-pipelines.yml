@@ -13,8 +13,4 @@ pool:
 
 jobs:
 
-- job: 
-  steps:
-    - checkout: UDP
-
-- template: template.yml
+- template: src\build\dotnetcore-build-jobs.yml@UDP
