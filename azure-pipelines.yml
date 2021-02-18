@@ -1,3 +1,10 @@
+resources:
+  repositories:
+  - repository: UDP
+    type: github
+    endpoint: devopsnights
+    name: devopsnights/UDP
+
 trigger:
   - master
   
@@ -5,5 +12,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
+
+- job: 
+  steps:
+    - checkout: UDP
 
 - template: template.yml
