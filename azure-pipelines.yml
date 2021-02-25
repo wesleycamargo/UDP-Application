@@ -11,12 +11,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-
-- template: src\orchestrator.yml@UDP
+extends:
+  template: src\orchestrator.yml@UDP
   parameters:
     resourceType: dotnetcore
 
-- template: src\orchestrator.yml@UDP
-  parameters:
-    resourceType: nodejs
