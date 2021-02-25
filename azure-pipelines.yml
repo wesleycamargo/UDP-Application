@@ -2,8 +2,8 @@ resources:
   repositories:
   - repository: UDP
     type: github
-    endpoint: devopsnights
-    name: devopsnights/UDP
+    endpoint: wesleycamargo
+    name: wesleycamargo/UDP
 
 trigger:
   - master
@@ -13,4 +13,4 @@ pool:
 
 jobs:
 
-- template: src\build\dotnetcore-build-jobs.yml@UDP
+- template: src\orchestrator.yml@UDP
