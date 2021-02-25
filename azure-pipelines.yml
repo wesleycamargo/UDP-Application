@@ -11,6 +11,5 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-jobs:
 
 - template: src\orchestrator.yml@UDP
