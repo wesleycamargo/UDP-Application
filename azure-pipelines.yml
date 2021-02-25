@@ -14,3 +14,9 @@ pool:
 steps:
 
 - template: src\orchestrator.yml@UDP
+  parameters:
+    resourceType: dotnetcore
+
+- template: src\orchestrator.yml@UDP
+  parameters:
+    resourceType: nodejs
