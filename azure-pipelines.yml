@@ -58,7 +58,7 @@ jobs:
                 azureSubscription: 'ServiceConnection'
                 appType: 'webApp'
                 WebAppName: 'wa-udp-dotnetcore'
-                packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+                packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
 
 # extends:
 #   template: src\orchestrator.yml@UDP
